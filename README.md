@@ -8,14 +8,14 @@ Right now that means computer vision that runs on-device, marketplaces that move
 
 ## Selected work
 
-### [Vigil](https://github.com/Param077s/vigil) — AI phone detection for exam halls and secure areas
+### [Vigil](https://github.com/Param077s/phone-detector) — AI phone detection for exam halls and secure areas
 `Python` `YOLOv8` `FastAPI` `WebSockets` `OpenCV` `PyInstaller`
 
 Watches any number of cameras — webcam, phone, or RTSP CCTV — and flags phones in real time with a cropped photo and location, for a human to confirm or dismiss. **All inference runs on-device; video never leaves the building**, which is what makes it deployable in a university at all.
 
 Shipped as a **native desktop app for macOS, Windows and Linux** across **29 releases**, built and signed in CI. Includes a fine-tuning pipeline so an institution can sharpen the model on its own footage, a searchable evidence log with CSV export, role-based accounts, and a command palette.
 
-→ **[Download it](https://github.com/Param077s/vigil/releases/latest)** · [Website](https://phone-detector-one.vercel.app)
+→ **[Source](https://github.com/Param077s/phone-detector)** · [Download it](https://github.com/Param077s/vigil/releases/latest) · [Website](https://phone-detector-one.vercel.app)
 
 ---
 
