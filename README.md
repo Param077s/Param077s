@@ -4,6 +4,9 @@
 
 Right now that means computer vision that runs on-device, marketplaces that move real money, and native macOS tools. Computer Science student at **Lovely Professional University**, Punjab, graduating 2028. Open to software engineering internships.
 
+![Contributions in the last year](stats.svg)
+
+
 ---
 
 ## Selected work
