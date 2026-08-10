@@ -21,9 +21,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # STATS_TOKEN is a personal access token with read:user. Without it the
+      # default GITHUB_TOKEN is repository-scoped and cannot see contributions
+      # in private repos, which undercounts the totals.
       - name: Render stats.svg
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
         run: python3 scripts/make_stats.py
 
