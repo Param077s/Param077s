@@ -22,7 +22,7 @@ Shipped as a **native desktop app for macOS, Windows and Linux** across **29 rel
 ### [Vouchroot](https://vouchroot.com) — marketplace for verified creator listings *(production)*
 `React` `TypeScript` `Supabase/Postgres` `Stripe Connect` `Vercel`
 
-A live commercial marketplace built on Stripe Connect. ~22,000 lines of TypeScript over 374 commits.
+A live commercial marketplace built on Stripe Connect. ~26,000 lines of TypeScript over 460 commits, 24 edge functions and 178 database migrations.
 
 The part I would want to talk about in an interview is not the UI — it is the guardrails. Every database change goes through **13 CI workflows** including migration linting, a strict schema audit, an automated review of edge functions, and smoke tests against a preview deployment. When your code moves other people's money, "it works locally" is not a standard.
 
