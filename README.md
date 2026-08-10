@@ -30,7 +30,7 @@ The part I would want to talk about in an interview is not the UI — it is the 
 
 ---
 
-### Foyer — paid conversations with escrow
+### [Foyer](https://github.com/Param077s/foyer) — paid conversations with escrow
 `React 19` `TypeScript` `Supabase` `Row-Level Security` `GitHub Actions`
 
 A creator sets a price to receive a message. A visitor pays to open a conversation, the money is held until the creator actually replies inside their promised window, and it refunds automatically if they don't.
@@ -43,7 +43,7 @@ The interesting constraint was authorization: with no server of my own, correctn
 
 ---
 
-### Superclip — a macOS clipboard that knows where the paste is going
+### [Superclip](https://github.com/Param077s/superclip) — a macOS clipboard that knows where the paste is going
 `Swift` `AppKit` `Vision OCR` `Accessibility API`
 
 Copy a table out of a PDF. Paste it into Numbers and you get real cells; into Slack, readable lines; into a code editor, an array literal. One copy, three correct outputs, and you never picked a format.
@@ -54,14 +54,14 @@ Nine global bindings — OCR any region of the screen, pull the value a field is
 
 ---
 
-### Glimpse — live window previews on the macOS Dock
+### [Glimpse](https://github.com/Param077s/glimpse) — live window previews on the macOS Dock
 `Swift 6` `ScreenCaptureKit` `Accessibility API`
 
 Hover a Dock icon and see live thumbnails of that app's actual windows, then click straight through to one — the Windows taskbar behaviour, done natively. A background cache warmer keeps thumbnails current so the strip appears instantly instead of rendering under the cursor.
 
 ---
 
-### Stitch Book — bilingual order ledger for a tailoring shop
+### [Stitch Book](https://github.com/Param077s/stitch-book) — bilingual order ledger for a tailoring shop
 `React` `TypeScript` `i18n` `offline-first`
 
 Customers, measurements per garment, orders with advance/balance, due dates and photos. Fully bilingual **English / ਪੰਜਾਬੀ**, and entirely offline — no account, no server, no internet.
