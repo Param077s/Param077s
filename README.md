@@ -1,5 +1,3 @@
-<img src="ascii.svg" width="360" alt="Paramjot Singh">
-
 # Paramjot Singh
 
 **Full-stack engineer, applied AI.** I build products end to end — the model, the API, the interface, the installer, and the release that puts it on someone's machine.
