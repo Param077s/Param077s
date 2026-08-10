@@ -68,6 +68,8 @@ Customers, measurements per garment, orders with advance/balance, due dates and 
 
 Built for a real shop, which set every constraint: the person using it does not read English comfortably, has patchy connectivity, and will not create an account. Those constraints made it a better piece of software than any of my own preferences would have.
 
+→ **[Try it in your browser](https://param077s.github.io/stitch-book/)** — no install, no account
+
 ---
 
 ### [AdaptRes](https://param077s.github.io/adaptres/) — adaptive OS resource allocator
